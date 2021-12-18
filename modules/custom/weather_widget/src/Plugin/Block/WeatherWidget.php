@@ -27,7 +27,7 @@ class WeatherWidget extends BlockBase {
       if ($node && $node->bundle() == 'city') {
         $city = $node->field_city->value;
         $countrycode = $node->field_country->value;
-        $url = 'https://api.openweathermap.org/data/2.5/weather?q=' . $city . ',' . $countrycode. '&units=metric&appid=' . $key;
+        $url = 'https://api.openweathermap.org/data/2.5/weather?q=' . $city . ',' . $countrycode . '&units=metric&appid=' . $key;
         $data = json_decode(file_get_contents($url));
         if ($data->cod == 200) {
           return [

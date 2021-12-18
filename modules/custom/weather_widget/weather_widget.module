@@ -13,16 +13,16 @@ function weather_widget_theme($existing, $type, $theme, $path) {
     'weather_widget' => [
       'template' => 'block--weather-widget',
       'variables' => [
-        'temp' => null,
-        'city' => null,
-        'image' => null,
+        'temp' => NULL,
+        'city' => NULL,
+        'image' => NULL,
       ],
     ],
   ];
 }
 
 /**
- * Implements hook_preprocess_block.
+ * Implements hook_preprocess_block__weather_widget.
  */
 function weather_preprocess_block__weather_widget(&$variables) {
   $variables['#cache']['contexts'][] = 'url';
