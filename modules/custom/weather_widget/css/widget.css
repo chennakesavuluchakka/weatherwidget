@@ -1,0 +1,27 @@
+.weather-widget {
+  position: fixed;
+  top: 32%;
+  right: 0;
+  z-index: 1;
+  padding: 20px;
+  background-color: #ebebeb;
+}
+
+.weather-widget h4 {
+  color: #545454;
+  margin-bottom: 0;
+}
+
+.weather-widget p {
+  color: #69736a;
+  font-size: 0.875rem;
+  margin-bottom: 0;
+}
+
+.weather-widget img {
+  width: 30px;
+  height: 30px;
+  position: absolute;
+  top: 0;
+  left: 0;
+}

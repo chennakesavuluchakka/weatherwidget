@@ -1,0 +1,6 @@
+weather_widget.settings:
+  title: 'Weather Api Key'
+  route_name: weather_widget.settings
+  description: 'Enter the API key here'
+  parent: system.admin_config_development
+  weight: 99

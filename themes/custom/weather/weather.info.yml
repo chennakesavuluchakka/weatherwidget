@@ -1,0 +1,12 @@
+name: Weather Widget
+type: theme
+description: 'Weather Widget subtheme based on Bootstrap 4 theme.'
+core_version_requirement: '^8.8 || ^9'
+base theme: bootstrap4
+libraries:
+  - weather/global-styling
+
+regions:
+  header: Header
+  content: 'Main content'
+  footer: Footer

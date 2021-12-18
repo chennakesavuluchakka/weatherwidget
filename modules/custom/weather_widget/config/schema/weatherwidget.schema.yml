@@ -1,0 +1,7 @@
+weatherwidget.settings:
+  type: config_object
+  label: 'Weather API settings'
+  mapping:
+    weatherapi_key:
+      type: string
+      label: 'Enter API Key'

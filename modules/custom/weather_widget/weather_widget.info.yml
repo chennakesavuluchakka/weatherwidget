@@ -1,0 +1,5 @@
+name: 'Weather Widget'
+type: module
+package: 'custom'
+description: 'Weather Widget common functionalities.'
+core_version_requirement: '^9'

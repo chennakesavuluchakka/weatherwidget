@@ -1,0 +1,9 @@
+weather_widget.settings:
+  path: '/admin/config/weatherapi'
+  defaults:
+    _form: '\Drupal\weather_widget\Form\WeatherWidgetSettingsForm'
+    _title: 'Weather API Settings'
+  requirements:
+    _permission: 'administer site configuration'
+  options:
+    _admin_route: TRUE

@@ -1,0 +1,221 @@
+header .navbar {
+  width: 100%;
+  height: 90px;
+}
+
+header {
+  box-shadow: 0 0.5rem 1rem rgb(0 0 0 / 15%);
+}
+
+footer {
+  background-color: #0000a0;
+}
+
+.footer-menu .nav-item a {
+  color: #fff;
+}
+
+.navbar .nav-link {
+  color: #000;
+  font-weight: bold;
+}
+
+.navbar .site-logo {
+  text-decoration: none;
+  color: #0000a0;
+}
+
+.navbar .navbar-toggler.collapsed .navbar-toggler-icon {
+  background-image: url(../images/menu.png);
+  width: 40px;
+}
+
+.navbar .navbar-toggler .navbar-toggler-icon {
+  background-image: url(../images/close.png);
+  width: 30px;
+}
+
+.view-most-visited h2,
+.view-cities h1 {
+  color: #0000a0;
+  margin-bottom: 20px;
+  text-align: center;
+  font-weight: bold;
+  margin-top: 3rem;
+}
+
+.view-most-visited h4,
+.view-cities h4 {
+  color: #0000a0;
+  font-weight: bold;
+}
+
+.view-most-visited .more-about {
+  color: #0000a0;
+  display: flex;
+  align-items: center;
+}
+
+.view-most-visited .more-about::after {
+  content: '';
+  background: url('../images/arrow-blue.svg') no-repeat;
+  transform: rotate(-90deg);
+  display: block;
+  width: 16px;
+  height: 16px;
+  margin-left: 10px;
+}
+
+.banner-image img {
+  position: relative;
+  width: 100%;
+  height: auto;
+  max-height: 600px;
+  object-fit: cover;
+}
+
+.caption-title {
+  position: absolute;
+  width: 100%;
+  top: 40%;
+  text-align: center;
+}
+
+.caption-title h1 {
+  color: #fff;
+  font-size: 5rem;
+  font-weight: bolder;
+}
+
+.node--type-city h1 {
+  color: #0000a0;
+  font-weight: bolder;
+}
+
+.view-cities .card {
+  height: 100%;
+  box-shadow: 0 .5rem 1rem rgba(0, 0, 0,.15);
+  padding-bottom: 30px;
+}
+
+.view-cities .city-content {
+  padding: 15px;
+}
+
+.view-cities .more-about {
+  position: absolute;
+  right: 20px;
+  color: #0000a0;
+  border: 1px solid;
+  padding: 2px 25px 2px 15px;;
+  border-radius: 25px;
+}
+
+.view-cities .more-about:hover {
+  background-color: #0000a0;
+  color: #fff;
+  text-decoration: none;
+}
+
+.view-cities .more-about:after {
+  content: '';
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 7.5px 0 7.5px 10px;
+  border-color: transparent transparent transparent #0000a0;
+  position: absolute;
+  top: 50%;
+  -webkit-transform: translate(-50%,-50%);
+  transform: translate(-50%,-50%);
+  margin-left: 10px;
+}
+
+.view-cities .more-about:hover:after {
+  border-left-color: #fff;
+}
+
+.view-cities .city-image {
+  overflow: hidden;
+}
+
+.view-cities .city-image img {
+  max-width: 100%;
+  border-radius: 0;
+  -webkit-transition: all .4s linear;
+  transition: all .4s linear;
+}
+
+.view-cities .city-image img:hover {
+  transform: scale(1.1);
+  -webkit-transform: scale(1.1);
+}
+
+.view-cities .js-form-item-field-city-value input {
+  border-radius: 0;
+  border: 1px solid #000;
+  background: url('../images/search-blue.png') no-repeat;
+  background-position: 10px center;
+  padding-left: 40px;
+  height: 40px;
+}
+
+.view-cities .form--inline {
+  display: flex;
+}
+
+.view-cities .js-form-item-field-city-value {
+  width: 50%;
+}
+
+.view-cities .form-actions input {
+  background-color: #0000a0;
+  height: 40px;
+  border: 0;
+}
+
+.js-pager__items .pager__item {
+  list-style: none;
+  margin: 0;
+  text-align: center;
+  display: block;
+  padding: 0;
+  line-height: 1.75rem;
+}
+
+.js-pager__items .pager__item .button {
+  color: #fff;
+  background-color: #0000a0;
+  border-color: #0000a0;
+  min-width: 210px;
+  height: 50px;
+  line-height: normal;
+  padding: 15px;
+  text-decoration: none;
+  margin: 0 auto;
+  margin-top: 20px;
+  display: inline-block;
+  text-align: center;
+  font-size: 1rem;
+  border: 0;
+  border-radius: 0;
+}
+
+@media only screen and (max-width: 767px) {
+  .view-cities .form--inline {
+    display: block;
+  }
+
+  .view-cities .js-form-item-field-city-value {
+    width: 100%;
+  }
+
+  header .navbar-nav {
+    padding-top: 10px;
+    margin-top: 10px;
+  }
+
+  header .navbar {
+    height: auto;
+  }
+}
