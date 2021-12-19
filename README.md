@@ -1,3 +1,15 @@
+## Visual Representation.
+
+## Home Page
+<img alt="Home page" src="https://github.com/chennakesavuluchakka/weatherwidget/blob/main/images/homepage.png">
+
+## Cities Page
+<img alt="Cities page" src="https://github.com/chennakesavuluchakka/weatherwidget/blob/main/images/cities.png">
+
+## City Details Page
+<img alt="City Details page" src="https://github.com/chennakesavuluchakka/weatherwidget/blob/main/images/city.png">
+
+
 <img alt="Drupal Logo" src="https://www.drupal.org/files/Wordmark_blue_RGB.png" height="60px">
 
 Drupal is an open source content management platform supporting a variety of
