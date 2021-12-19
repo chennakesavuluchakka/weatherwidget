@@ -17,7 +17,7 @@
 #}
 <div class="row row-eq-height">
   {% for row in rows %}
-    <div class="col-md-6 col-lg-4">
+    <div class="col-md-6 col-lg-4 mb-4">
       <div class="card">
         {% set img = row.content['#view'].style_plugin.render_tokens[ loop.index0 ]['{{ field_image }}'] %}
         <div class="city-image">

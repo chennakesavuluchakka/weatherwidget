@@ -17,7 +17,7 @@
 #}
 <div class="row">
   {% for row in rows %}
-    <div class="col-sm-8">
+    <div class="col-sm-8 mt-4">
       <div class="city-content">
         <h4>{{ row.content['#view'].style_plugin.render_tokens[ loop.index0 ]['{{ title }}'] }}</h4>
         <div>{{ row.content['#view'].style_plugin.render_tokens[ loop.index0 ]['{{ body }}'] }}</div>

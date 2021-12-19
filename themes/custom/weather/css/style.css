@@ -36,7 +36,8 @@ footer {
 }
 
 .view-most-visited h2,
-.view-cities h1 {
+.view-cities h1,
+.view-cities h2 {
   color: #0000a0;
   margin-bottom: 20px;
   text-align: center;
