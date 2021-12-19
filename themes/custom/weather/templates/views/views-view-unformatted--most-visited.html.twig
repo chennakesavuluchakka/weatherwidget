@@ -22,9 +22,11 @@
         <h4>{{ row.content['#view'].style_plugin.render_tokens[ loop.index0 ]['{{ title }}'] }}</h4>
         <div>{{ row.content['#view'].style_plugin.render_tokens[ loop.index0 ]['{{ body }}'] }}</div>
       </div>
-      <a class="more-about" href="{{ row.content['#view'].style_plugin.render_tokens[ loop.index0 ]['{{ view_node }}'] }}">
-        {{ 'More about '|t }} {{ row.content['#view'].style_plugin.render_tokens[ loop.index0 ]['{{ field_city }}'] }}
-      </a>
+      <div class="d-sm-flex justify-content-sm-end">
+        <a class="more-about" href="{{ row.content['#view'].style_plugin.render_tokens[ loop.index0 ]['{{ view_node }}'] }}">
+          {{ 'More about '|t }} {{ row.content['#view'].style_plugin.render_tokens[ loop.index0 ]['{{ field_city }}'] }}
+        </a>
+      </div>
     </div>
     <div class="col-sm-4">
       {% set img = row.content['#view'].style_plugin.render_tokens[ loop.index0 ]['{{ field_image }}'] %}

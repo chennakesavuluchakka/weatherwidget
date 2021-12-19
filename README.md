@@ -1,12 +1,18 @@
 ## Visual Representation.
 
 ## Home Page
+
+In the home page we can see banner Image and most visited cities using statistics module.
 <img alt="Home page" src="https://github.com/chennakesavuluchakka/weatherwidget/blob/main/images/homepage.png">
 
 ## Cities Page
+
+In the Cities page you can see a list of cities with some basic details in cards and links to city pages. You can also search with a city name.
 <img alt="Cities page" src="https://github.com/chennakesavuluchakka/weatherwidget/blob/main/images/cities.png">
 
 ## City Details Page
+
+In the City page you can see the city information and video describing the city and weather widget showing the live temperature of the city using the openweathermap api and list of remaining cities below in case the user wants to see them.
 <img alt="City Details page" src="https://github.com/chennakesavuluchakka/weatherwidget/blob/main/images/city.png">
 
 
